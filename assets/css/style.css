@@ -380,7 +380,7 @@ a {
 
 .feedback-list {
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
 }
 
 .feedback-item {
