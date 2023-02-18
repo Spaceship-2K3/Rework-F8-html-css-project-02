@@ -61,7 +61,7 @@ body {
     padding: 0 1.2rem;
     font-weight: 600;
     color: #ffffff;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 2.5rem;
@@ -485,4 +485,114 @@ a {
     height: 44rem;
     object-fit: cover;
     border-radius: 2rem;
+}
+
+.feature-bottom .btn {
+    margin-top: 1.6rem;
+}
+
+/* Blog */
+.blog {
+    padding: 9.6rem 0 14rem 0;
+    background: #fffcf4;
+}
+
+.blog-top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-top .desc {
+    width: 34.188%;
+    margin-top: 1.6rem;
+}
+
+.blog-list {
+    display: flex;
+    gap: 0 3rem;
+    margin-top: 5.5rem;
+}
+
+.blog-item {
+    width: 33.333%;
+    border-radius: 1.6rem;
+    background-color: #fff;
+}
+.blog-item:hover {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.blog-item .thumb {
+    width: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.blog-item .info {
+    padding: 2rem 2rem 2.8rem 2rem;
+}
+
+.blog-item .info .date {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    position: relative;
+    margin-left: 0.8rem;
+}
+
+.date::before {
+    content: "";
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    left: -8px;
+    bottom: 35%;
+}
+.date::after {
+    content: "";
+    display: inline-block;
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background-color: #e2dfda;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+}
+
+.blog-item .info .title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+    margin-top: 2.4rem;
+}
+
+.blog-item .info .btn {
+    margin-top: 1.2rem;
+}
+.blog-item .info .btn:hover:not(.btn.active) {
+    background-color: var(--primary-color);
+}
+
+.blog .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8rem;
+}
+
+.blog .dots .dot {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #5f5b53;
+    margin-right: 0.6rem;
+}
+
+.blog .dot.active {
+    background-color: var(--primary-color);
 }
