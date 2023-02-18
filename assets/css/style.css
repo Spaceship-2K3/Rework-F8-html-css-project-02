@@ -596,3 +596,72 @@ a {
 .blog .dot.active {
     background-color: var(--primary-color);
 }
+
+/* Footer */
+.footer {
+    background: #2e2100;
+    padding-top: 9.6rem;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 3.8rem;
+    border-bottom: 1px solid #59554b;
+    justify-content: space-between;
+}
+
+.footer .col:nth-child(2),
+.footer .col:nth-child(3) {
+    width: 11.7%;
+    margin-right: 8.8rem;
+}
+
+.col.with-social {
+    width: 22.83%;
+    margin-right: 14.5rem;
+}
+
+.footer .col:last-child {
+    width: 21.8%;
+}
+
+.footer .desc {
+    margin: 1.8rem 0;
+    color: #bfbcb2;
+}
+
+.footer i {
+    color: white;
+    margin-right: 1.8rem;
+}
+
+.footer .heading {
+    font-weight: 600;
+    font-size: 1.6;
+    line-height: 1.75;
+    color: #ffffff;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .col li a {
+    margin-top: 1.2rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer .col li:first-child a {
+    margin-top: 2.8rem;
+}
+.footer strong {
+    font-weight: 600;
+    color: white;
+}
+
+.copyright {
+    padding: 2.8rem 0;
+    color: #807d74;
+    font-size: 1.4rem;
+    text-align: center;
+}
